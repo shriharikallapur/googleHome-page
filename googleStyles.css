@@ -1,4 +1,5 @@
 body {
+	height: 100dvh;
 	margin: 0px 2px 0px 0px;
 	font-size: 14px;
     font-family: arial,sans-serif;
@@ -105,16 +106,24 @@ body {
 
 
 .searcher {
-	margin: 22.5px 476px;
+	width: 100%;
+	/* margin: 22.5px 476px; */
 }
 
-.searchBar:hover {
+.searchBar-inner-container:hover {
 	background-color: #fff;
 	box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 	border-color: rgba(223,225,229,0);
 }
 
 .searchBar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.searchBar-inner-container {
 	width: 582px;
 	height: 44px;
 	border: 0.1px solid #e6e2e2;
